@@ -14,5 +14,12 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.20.0"
+	},
+	"dependencies": {
+		"@statsig/js-client": "^3.18.0",
+		"@statsig/session-replay": "^3.18.0",
+		"@statsig/web-analytics": "^3.18.0",
+		"statsig-node": "^5.33.0",
+		"statsig-node-cloudflare-kv": "^1.2.1"
 	}
 }

@@ -9,6 +9,15 @@
 	"compatibility_date": "2025-06-13",
 	"observability": {
 		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "STATSIG_KV",
+			"id": "YOUR_KV_NAMESPACE_ID"
+		}
+	],
+	"vars": {
+		"STATSIG_SECRET_KEY": "YOUR_STATSIG_SECRET_KEY"
 	}
 	/**
 	 * Smart Placement
